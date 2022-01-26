@@ -9,7 +9,7 @@ import objects
 
 class Image(pygame.sprite.Sprite):
     """Basic class for importing images."""
-    def __init__(self, window, /, path: str = ""):
+    def __init__(self, window, /, path: str = "assets/images/placeholder.bmp"):
         super().__init__()
         self.window = window
         self.path = path
